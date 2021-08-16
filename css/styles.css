@@ -1,0 +1,344 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.div1 {
+  background-image: url(../images/desktop/image-hero.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 550px;
+
+}
+nav {
+  display: flex;
+  position: absolute;
+  top: 12%;
+  right: 0;
+  left: 5%;
+  justify-content: space-between;
+  text-align: center;
+  font-family: 'Poppins',sans-serif;
+  min-height: 8vh;
+}
+.logo {
+  font-size: 20px;
+  color:white;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin-top: 1%;;
+}
+.nav-links{
+  display:flex;
+  justify-content: space-around;
+  width: 50%;
+  margin-top: 1%;;
+}
+.nav-links li{
+  list-style: none;
+}
+.nav-links a{
+  color:white;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.burger {
+  margin-top: 1%;
+  display:none;
+  cursor: pointer;
+}
+.burger div{
+  width:25px;
+  height :3px;
+  background-color: white;
+  margin:5px;
+}
+.div1one{
+  position: absolute;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  height: 250px;
+  width: 400px;
+  bottom: 20%;
+  left: 7%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+
+
+}
+h1{
+  position: absolute;
+  border-color: white;
+  border-width: 2px;
+  left: 7%;
+  font-size: 50px;
+  bottom: 10%;
+  text-transform: uppercase;
+  color: white;
+  font-family: 'Alata',sans-serif;
+
+}
+.row {
+  padding: 0;
+  margin: 0;
+}
+.div2 {
+  padding: 8%;
+}
+.div2one{
+  background-image: url(../images/desktop/image-interactive.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: 800px;
+}
+.div2two {
+  position: absolute;
+  left: 41%;
+  height: 300px;
+  width: 650px;
+  bottom: -79%;
+  background-color: white;
+  z-index: 1;
+  text-align: right;
+  padding: 6%;
+  text-transform: uppercase;
+  margin-bottom: 4%;
+}
+h2 {
+  font-size: 45px;
+  font-family: 'Alata',sans-serif;
+  margin-bottom: 8%;
+  font-weight:lighter;
+}
+.div2two p{
+  font-family: 'Josefin',sans-serif;
+  font-size: 12px;
+  color: hsl(0, 0%, 55%);
+}
+.div3{
+  display: flex;
+  justify-content: space-between;
+  padding: 6%;
+  padding-top: 0;
+  margin-top: 2%;
+}
+.div4 {
+  padding: 6%;
+  padding-top: 0;
+  display: flex;
+  justify-content: flex-start;
+}
+.div5 {
+  padding: 6%;
+  padding-top: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+.div4 p{
+  position: absolute;
+  bottom: 3%;
+  text-align: left;
+  letter-spacing: 2px;
+  color: white;
+  font-family: 'Josefin',sans-serif;
+  font-size: 25px;
+}
+.div5 p{
+  position: absolute;
+  bottom: 3%;
+  text-align: left;
+  letter-spacing: 2px;
+  color: white;
+  font-family: 'Josefin',sans-serif;
+  font-size: 25px;
+}
+.img1 {
+  background-image: url(../images/desktop/image-deep-earth.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  margin-right: 3%;
+}
+.img2 {
+  background-image: url(../images/desktop/image-night-arcade.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  margin-right: 3%;
+}
+.img3 {
+  background-image: url(../images/desktop/image-soccer-team.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  margin-right: 3%;
+
+}
+.img4 {
+  background-image: url(../images/desktop/image-grid.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  margin-right: 3%;
+
+}
+.img5 {
+  background-image: url(../images/desktop/image-from-above.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  margin-right: 3%;
+}
+.img6 {
+  background-image: url(../images/desktop/image-pocket-borealis.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  margin-right: 3%;
+}
+.img7 {
+  background-image: url(../images/desktop/image-curiosity.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  margin-right: 3%;
+}
+.img8 {
+  background-image: url(../images/desktop/image-fisheye.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  margin-right: 3%;
+}
+.div6{
+  padding: 6%;
+  background-color: black;
+  text-align: center;
+}
+.div6one {
+  display: flex;
+  margin-left: 30%;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 3%;
+  width: 40%;
+}
+.div6two {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-around;
+  margin-top: 3%;
+  margin-left: 35%;
+  margin-bottom: 2%;
+  width: 30%;
+}
+.div6 p{
+  color: white;
+  margin-top: 2%;
+
+}
+.bt {
+  width: 100px;
+}
+.attribution {
+  background-color: black;
+  text-align: center;
+}
+@media only screen and (max-width:768px) {
+  body{
+    overflow-x: hidden;
+  }
+  .nav-links{
+    position:absolute;
+    top:8vh;
+    height: 40vh;
+    right: 0;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    border-radius: 20px;
+    z-index: 1;
+    transform: translateX(100%);
+
+  }
+  .nav-links a{
+    color : #5EDFFF;
+  }
+  .burger{
+    display: block;
+    margin-right: 2%;
+  }
+  .div2two{
+    position: static;
+  }
+  .img1{
+    background-image: url(../images/mobile/image-deep-earth.jpg);
+    height: 200px;
+    margin-bottom: 5%;
+  }
+  .img2{
+    background-image: url(../images/mobile/image-night-arcade.jpg);
+    height: 200px;
+    margin-bottom: 5%;
+  }
+  .img3{
+    background-image: url(../images/mobile/image-soccer-team.jpg);
+    height: 200px;
+    margin-bottom: 5%;
+  }
+  .img4{
+    background-image: url(../images/mobile/image-grid.jpg);
+    height: 200px;
+  }
+  .img5{
+    background-image: url(../images/mobile/image-from-above.jpg);
+    height: 200px;
+    margin-bottom: 5%;
+  }
+  .img6{
+    background-image: url(../images/mobile/image-pocket-borealis.jpg);
+    height: 200px;
+    margin-bottom: 5%;
+  }
+  .img7{
+    background-image: url(../images/mobile/image-curiosity.jpg);
+    height: 200px;
+    margin-bottom: 5%;
+  }
+  .img8{
+    background-image: url(../images/mobile/image-fisheye.jpg);
+    height: 200px;
+    margin-bottom: 5%;
+  }
+  .div6one{
+    flex-direction: column;
+    height: 40%;
+  }
+  .div2two{
+    text-align: center;
+  }
+  h2{
+    font-size: 30px;
+  }
+
+}
+.pressed {
+  transform: translateX(0);
+}
